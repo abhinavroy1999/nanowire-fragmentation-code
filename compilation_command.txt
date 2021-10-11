@@ -1,3 +1,5 @@
-# the gencode flag is to be updated based on the compute capability X.X of the device
- 
-nvcc nanowire3D.cu -gencode arch=compute_50,code=[sm_50,compute_50] -Wno-deprecated-gpu-targets -lcufft 
+# The gencode flag is to be updated based on the compute capability X.X of the device
+# SIMTYPE = NEW / RESTART
+# CONFIG = DEG30 / DEG45 / DEG60 / DEG90 / SINGLE_WIRE / MULT_JUNC
+
+nvcc nanowire3D.cu -gencode arch=compute_75,code=[sm_75,compute_75] -lm -lcufft -lgsl -D(SIMTYPE) -D(CONFIG) 
