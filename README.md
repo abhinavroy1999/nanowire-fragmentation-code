@@ -53,7 +53,7 @@ Second command line argument:
 - _SINGLE_WIRE_: For single nanowire configuration.
 - _MULT_JUNC_: For nanowire grid consisting of 9 junctions.
 
-A sample command command for a *new* simulation for *90 degree* configuration is as follows: 
+A sample command for a *new* simulation for *90 degree* configuration is as follows: 
 ```bash
 ./nanowire_cuda.sh NEW DEG90 
 ```
