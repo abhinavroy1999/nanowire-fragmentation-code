@@ -57,4 +57,4 @@ A sample command for a *new* simulation for *90 degree* configuration is as foll
 ```bash
 ./nanowire_cuda.sh NEW DEG90 
 ```
-**NOTE:** The code can also be run in windows operating system. In that case the bash script files cannot be used, rather the user has to compile the code based on the compilation commands given in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
+**NOTE:** The code can also be run in windows operating system. In that case the bash script files cannot be used, rather the user has to compile the code manually using the compilation commands provided in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
