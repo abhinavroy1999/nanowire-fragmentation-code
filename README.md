@@ -31,4 +31,25 @@ The code is written for Linux based operating systems with Nvidia CUDA enabled G
 - Python3 (preferably Python3.7)
 - Mayavi (for generating 3D plots directly)
 
+#### Code execution ####
+The compilation and execution of the simulation code is handled by the _nanowire\_cuda.sh_ script. 
+The command format: _./nanowire\_cuda.sh ARG1 ARG2_
+The following command line arguments are to be used for different configurations: -
+First command line argument:
+
+- _NEW_: For a fresh simulation run.
+- _RESTART_: For a restarted simulation run.
+Second command line argument:
+
+- _DEG90_: 90 degree configuration between two crossing nanowires.
+- _DEG60_: 60 degree configuration between two crossing nanowires.
+- _DEG45_: 45 degree configuration between two crossing nanowires.
+- _DEG30_: 30 degree configuration between two crossing nanowires.
+- _SINGLE_WIRE_: For single nanowire configuration.
+- _MULT_JUNC_: For nanowire grid consisting of 9 junctions.
+
+A sample command command for a *new* simulation for *90 degree* configuration is as follows: 
+'''bash
+./nanowire_cuda.sh NEW DEG90
+'''
 **NOTE:** The code can also be run in windows operating system. In this case the bash script files cannot be used, rather the user has to compile the code based on the compilation commands given in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
