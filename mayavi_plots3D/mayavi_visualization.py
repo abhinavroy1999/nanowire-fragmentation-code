@@ -1,3 +1,24 @@
+'''
+Script to read the binary output data files (in binary time-series format), 
+and print 3D plots using Mayavi Mlab module. The dataset is converted to 
+tvtk.StructuredPoints format and thereafter plotted and saved as PNG figure files.
+
+The figure files are also compiled to print an animated GIF in the current directory
+using the MoviePy module.
+
+Copyright (C) 2020  Abhinav Roy, Arjun Varma R, M.P. Gururajan
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+any later version.
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+'''
 import numpy as np
 from mayavi import mlab
 from tvtk.api import tvtk
