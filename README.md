@@ -4,7 +4,7 @@
 <img src="assets/background.svg" alt="Nanowire Logo" width="512" height="384"></img>
 </a>
 </div>
-This repository contains simulation code for surface diffusion enhanced nanowire junction break-up. The code is written in CUDA C (GPU accelerated parallel code for Nvidia GPUs). Pre-print of the research article where this code was used can be found here: (http://arxiv.org/abs/2107.01801. The code is based on the variable mobility Cahn-Hilliard (VMCH) formulation. The details of VMCH algorithm can be found [here](https://10.13140/RG.2.2.29738.13760/4)
+This repository contains simulation code for surface diffusion enhanced nanowire junction break-up. The code is written in CUDA C (GPU accelerated parallel code for Nvidia GPUs). Pre-print of the research article where this code was used can be found here: (http://arxiv.org/abs/2107.01801. The code is based on the variable mobility Cahn-Hilliard (VMCH) formulation. The details of VMCH algorithm can be found at the following DOI: 10.13140/RG.2.2.29738.13760/4.
 
 #### Directory contents ####
 The contents of this repository are described below: -
