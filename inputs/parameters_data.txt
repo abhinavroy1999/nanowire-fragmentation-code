@@ -1,0 +1,6 @@
+1.0
+1.0
+1.0
+0.5
+
+M, A, Kappa, alpha(stability factor)
