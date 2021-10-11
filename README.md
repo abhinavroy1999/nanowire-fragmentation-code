@@ -31,4 +31,4 @@ The code is written for Linux based operating systems with Nvidia CUDA enabled G
 - Python3 (preferably Python3.7)
 - Mayavi (for generating 3D plots directly)
 
-**NOTE:** The code can also be run in windows operating system. In this case the bash script files cannot be used, rather the user has to compile the code based on the compilation commands given in the assets/ directory without the -lgsl and -lm flags, and a suitable random number generator.
+**NOTE:** The code can also be run in windows operating system. In this case the bash script files cannot be used, rather the user has to compile the code based on the compilation commands given in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
