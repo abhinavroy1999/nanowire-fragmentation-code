@@ -4,7 +4,7 @@
 <img src="assets/background.svg" alt="Nanowire Logo" width="512" height="384"></img>
 </a>
 </div>
-This repository contains simulation code for surface diffusion enhanced nanowire junction break-up. The code is written in CUDA C (GPU accelerated parallel code for Nvidia GPUs). Pre-print of the research article where this code was used can be found [here](https://arxiv.org/abs/2107.01801).
+This repository contains simulation code for surface diffusion enhanced nanowire junction break-up. The code is written in CUDA C (GPU accelerated parallel code for Nvidia GPUs). Pre-print of the research article where this code was used can be found [here] (https://arxiv.org/abs/2107.01801).
 
 The contents of this repository are described below: -
 - **inputs**: Constains the following files: -
