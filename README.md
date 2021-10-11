@@ -20,7 +20,7 @@ The contents of this repository are described below: -
     - _visualize.sh_: Script for compiling and executing the _vtkfile_ code.
 - **src**: Contains the source cuda C files. The main code file is _nanowire3D.cu_. All other code files are function files which _nanowire3D.cu_ file calls for different calculations.
 - **mayavi_Plot3D**: Contains _mayavi\_visualization.py_ script for converting the binary output time-series data files intp 3D plots directly. The output is stored in the _plots3D/_ directory in the form of PNG image files. The image files are also combined to form an animated GIF files names _animation.gif_.
-- 
+
 #### Dependencies ####
 The code is written for Linux based operating systems with Nvidia CUDA enabled GPUs. The following are list of dependencies which are used in the system: -
 
