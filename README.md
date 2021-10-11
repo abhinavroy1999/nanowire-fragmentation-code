@@ -23,7 +23,7 @@ The contents of this repository are described below: -
 - **output**: Contains output binary time-series data files generated from a particular simulation run. Subsequent simulation runs overwrite files into this directory and delete files from the previous run. Hence, users are advised to store the generated simulation data to a different folder for future use.
 
 #### Dependencies ####
-The code is written for Linux based operating systems with Nvidia CUDA enabled GPUs. The following are list of dependencies which are used in the system: -
+The code is written for Linux based operating systems with Nvidia CUDA enabled GPUs. The following are list of dependencies which are used in the code: -
 
 - cuFFT
 - gcc
