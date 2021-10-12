@@ -57,4 +57,15 @@ A sample command for a *new* simulation for *90 degree* configuration is as foll
 ```bash
 ./nanowire_cuda.sh NEW DEG90 
 ```
+
+#### Post-processing ####
+The binary simulation output time-series data in the *output/* directory can be used for all sorts of post-processing operations. The binary data converted into VTK datasets in the *visualize/vtk_data/* directory can be loaded into *Paraview* directly and visualized. Paraview also provides a lot of filters for data analysis purposes.
+
+Another option is to make on the fly plots directly from the binary data generated. This can be achieved using the *mayavi_visualization.py* script in the *mayavi_plots3D/* directory. To generate the plots, type the following command after the simulation run has finished:
+```bash
+cd mayavi_plots3D/
+python3 mayavi_visualization.py
+```
+Output in the form of PNG snapshots will be stored in *mayavi_plots3D/plots3D/* directory. Also, an animated gif of the entire simulation named *animation.gif* will be stored in the *mayavi_plots3D/* directory.
+
 **NOTE:** The code can also be run in windows operating system. In that case the bash script files cannot be used, rather the user has to compile the code manually using the compilation commands provided in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
