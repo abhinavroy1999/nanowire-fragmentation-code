@@ -25,12 +25,12 @@ The contents of this repository are described below: -
 #### Dependencies ####
 The code is written for Linux based operating systems with Nvidia CUDA enabled GPUs. The following are list of dependencies which are used in the code: -
 
-- cuFFT
-- gcc
-- GSL
+- [cuFFT](https://docs.nvidia.com/cuda/cufft/index.html)
+- [gcc](https://gcc.gnu.org/)
+- [GSL](https://www.gnu.org/software/gsl/)
 - [Paraview](https://www.paraview.org/) (for visualization and data analysis of VTK datasets)
-- Python3 (preferably Python3.7)
-- Mayavi (for generating 3D plots directly)
+- [Python3 (preferably Python3.7)](https://www.python.org/downloads/release/python-379/)
+- [Mayavi](https://docs.enthought.com/mayavi/mayavi/) (for generating 3D plots directly)
 
 #### Code execution ####
 The compilation and execution of the simulation code is handled by the _nanowire\_cuda.sh_ script. 
