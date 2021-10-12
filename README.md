@@ -69,4 +69,6 @@ python3 mayavi_visualization.py
 ```
 Output in the form of PNG snapshots will be stored in *mayavi_plots3D/plots3D/* directory. Also, an animated gif of the entire simulation named *animation.gif* will be stored in the *mayavi_plots3D/* directory.
 
-**NOTE:** The code can also be run in windows operating system. In that case the bash script files cannot be used, rather the user has to compile the code manually using the compilation commands provided in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
+**NOTE:** 
+- For the _RESTART_ simulation type, make sure to keep the binary data in the *output/* directory corresponding to the last time-step from which simulation needs to be restarted. Accordingly, updated the *start_time* in the _inputs/time_data.txt_ file to this last time-step from which to restart the simulation. 
+- The code can also be run in windows operating system. In that case the bash script files cannot be used, rather the user has to compile the code manually using the compilation commands provided in the assets/ directory without the -lgsl and -lm flags, and with a suitable random number generator for windows.
