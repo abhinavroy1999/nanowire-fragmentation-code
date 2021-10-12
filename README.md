@@ -33,7 +33,7 @@ The code is written for Linux based operating systems with Nvidia CUDA enabled G
 - [Mayavi](https://docs.enthought.com/mayavi/mayavi/) (for generating 3D plots directly)
 
 #### Code execution ####
-The compilation and execution of the simulation code is handled by the _nanowire\_cuda.sh_ script. 
+The compilation and execution of the simulation code is handled by the _nanowire\_cuda.sh_ script (to be executed from the *nanowireCUDA3D/* directory). 
 
 The command format: _./nanowire\_cuda.sh ARG1 ARG2_
 
