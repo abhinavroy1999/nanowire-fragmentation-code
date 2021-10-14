@@ -19,7 +19,7 @@ The contents of this repository are described below: -
     - _vtkfile.c_: Code for converting the binary output time-series data into [VTK datasets](https://docs.paraview.org/en/latest/UsersGuide/understandingData.html#vtk-data-model).   
     - _visualize.sh_: Script for compiling and executing the _vtkfile_ code.
 - **src**: Contains the source cuda C files. The main code file is _nanowire3D.cu_. All other code files are function files which _nanowire3D.cu_ file calls for different calculations.
-- **mayavi_Plot3D**: Contains _mayavi\_visualization.py_ script for converting the binary output time-series data files intp 3D plots directly. The output is stored in the _plots3D/_ directory in the form of PNG image files. The image files are also combined to form an animated GIF files names _animation.gif_.
+- **mayavi_plots3D**: Contains _mayavi\_visualization.py_ script for converting the binary output time-series data files intp 3D plots directly. The output is stored in the _plots3D/_ directory in the form of PNG image files. The image files are also combined to form an animated GIF files names _animation.gif_.
 - **output**: Contains output binary time-series data files generated from a particular simulation run. Subsequent simulation runs overwrite files into this directory and delete files from the previous run. Hence, users are advised to store the generated simulation data to a different folder for future use.
 
 #### Dependencies ####
