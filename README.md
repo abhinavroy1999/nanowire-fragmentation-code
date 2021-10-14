@@ -26,6 +26,7 @@ The contents of this repository are described below: -
 The code is written for Linux based operating systems with Nvidia CUDA enabled GPUs. The following are list of dependencies which are used in the code: -
 
 - [cuFFT](https://docs.nvidia.com/cuda/cufft/index.html)
+- [nvcc](https://docs.nvidia.com/cuda/cuda-compiler-driver-nvcc/index.html)
 - [gcc](https://gcc.gnu.org/)
 - [GSL](https://www.gnu.org/software/gsl/)
 - [Paraview](https://www.paraview.org/) (for visualization and data analysis of VTK datasets)
