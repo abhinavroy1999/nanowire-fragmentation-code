@@ -23,7 +23,9 @@ import numpy as np
 from mayavi import mlab
 from tvtk.api import tvtk
 import moviepy.editor as mpy
+import os
 
+os.system('rm -rf plots3D/*')
 mlab.options.offscreen = True
 fig = mlab.figure(size=(1024,1024), bgcolor=(0.3,0.3,0.5))
 
