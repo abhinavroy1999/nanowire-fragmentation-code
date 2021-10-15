@@ -814,9 +814,9 @@ int main(int argc, char **argv)
 	// Calculation of the total simulation time required
 	end_t = time(NULL);
 	time_elapsed = (double) (end_t - begin_t);
-	printf("\nThe total simulation wall-time elapsed = %f\n", time_elapsed);
+	printf("\nThe total simulation wall-time elapsed = %.4f seconds\n", time_elapsed);
 	fw = fopen("logfile.txt","a");
-	fprintf(fw, "The total simulation wall-time elapsed = %f\n", time_elapsed);
+	fprintf(fw, "The total simulation wall-time elapsed = %.4f seconds\n", time_elapsed);
 	(void) fclose(fw);
 	return 0;
 }
